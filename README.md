@@ -24,12 +24,12 @@ Sistema de gestión bibliotecaria basado en una arquitectura de microservicios c
         │ usuarios  │ │ libros    │ │ prestamos │
         │  :8081    │ │  :8082    │ │  :8083    │
         └─────┬─────┘ └─────┬─────┘ └─────┬─────┘
-              │              │              │
+              │              │            │
         ┌─────▼─────┐ ┌─────▼─────┐       │
         │ ms-       │ │ ms-       │       │
         │ devoluc.  │ │ notif.    │       │
         │  :8084    │ │  :8085    │       │
-        └─────┬─────┘ └─────┬─────┘       │
+        └─────┬─────┘ └─────┬─────┘       └─
               │              │              │
               └──────┬───────┘              │
                      │                      │
