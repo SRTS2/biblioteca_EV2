@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MsNotificacionesApplication",
+            "request": "launch",
+            "mainClass": "com.biblioteca.ms_notificaciones.MsNotificacionesApplication",
+            "projectName": "ms-notificaciones"
+        },
+        {
+            "type": "java",
+            "name": "MsPrestamosApplication",
+            "request": "launch",
+            "mainClass": "com.biblioteca.ms_prestamos.MsPrestamosApplication",
+            "projectName": "ms-prestamos"
+        },
+        {
+            "type": "java",
+            "name": "MsLibrosApplication",
+            "request": "launch",
+            "mainClass": "com.biblioteca.ms_libros.MsLibrosApplication",
+            "projectName": "ms-libros"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsUsuariosApplication<ms-usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.biblioteca.ms_usuarios.MsUsuariosApplication",
+            "projectName": "ms-usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
